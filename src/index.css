@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-natural-bg: #fcfbf7;
+  --color-natural-text: #4a4a3a;
+  --color-natural-dark: #2d2d24;
+  --color-natural-light: #7c7c6a;
+  --color-natural-muted: #a8a894;
+  --color-natural-sidebar: #f2f1e9;
+  --color-natural-border: #e0dfd5;
+  --color-natural-card-border: #e8e7e0;
+  --color-natural-primary: #5a5a40;
+  --color-natural-primary-hover: #4a4a34;
+  --color-natural-badge: #f5f5f0;
+  --color-natural-badge-hover: #ebeae0;
+}
+
+body {
+  background-color: #fcfbf7;
+  color: #4a4a3a;
+}
+
+/* Custom scrollbars matching minimalist natural tone style */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0dfd5; /* natural-border */
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a894; /* natural-muted */
+}
+
+/* Custom styles for animations */
+.transition-all-custom {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

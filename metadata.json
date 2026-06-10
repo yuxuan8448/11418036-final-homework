@@ -1,0 +1,8 @@
+{
+  "name": "Minimalist Schedule Planner",
+  "description": "A Japanese minimalist-style personal schedule planner and task management platform built on React, Vite, and Firebase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
